@@ -1,0 +1,43 @@
+{
+    "name": "vite-vue-cap",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "ionic:build": "npm run build",
+        "ionic:serve": "vite dev --host"
+    },
+    "dependencies": {
+        "@capacitor/android": "5.5.1",
+        "@capacitor/app": "5.0.6",
+        "@capacitor/cli": "5.5.1",
+        "@capacitor/core": "5.5.1",
+        "@capacitor/haptics": "5.0.6",
+        "@capacitor/ios": "5.5.1",
+        "@capacitor/keyboard": "5.0.6",
+        "@capacitor/status-bar": "5.0.6",
+        "@fortawesome/fontawesome-svg-core": "^6.5.1",
+        "@fortawesome/free-brands-svg-icons": "^6.5.1",
+        "@fortawesome/free-regular-svg-icons": "^6.5.1",
+        "@fortawesome/free-solid-svg-icons": "^6.5.1",
+        "@fortawesome/vue-fontawesome": "^3.0.5",
+        "@ionic/vue": "^7.5.7",
+        "@ionic/vue-router": "^7.5.7",
+        "vue": "^3.3.8",
+        "vue-router": "^4.2.5"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^4.5.0",
+        "sass": "^1.69.5",
+        "vite": "^5.0.0"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true
+    }
+}
